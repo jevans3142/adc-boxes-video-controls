@@ -1,0 +1,23 @@
+// Boxes switcher config file - LX Box
+// All lines starting // are regarded as comments and are ignored
+// Variable names and file format must NOT be changed
+// Where multiple numbers are allowed, separate with commas
+
+// Routing sources/destinations
+// Controls which source is routed to destination for each button
+// Also controls which output way on the router is used
+// Allowed values for sources: 1-40 = for sources 1-40 on router
+// Allowed values for destination: 1-40 = destinations on router
+// ==================
+
+// Button panel 
+routing_sources = 33,1,39,6,5,4
+routing_destination = 5
+
+
+// Router properties
+// IPv4 Address and port
+router_ip = 192.168.11.41
+router_port = 9990
+
+
